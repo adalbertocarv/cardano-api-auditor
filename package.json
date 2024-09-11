@@ -5,12 +5,14 @@
     "main": "index.js",
     "scripts": {
       "fetch-data": "node scripts/fetchData.js",
-      "submit-tx": "bash blockchain/buildTransaction.sh"
+      "submit-tx": "bash blockchain/buildTransaction.sh",
+      "test": "node test/testFetchData.js"
     },
     "dependencies": {
       "axios": "^0.21.1",
       "crypto": "latest",
-      "fs": "latest"
+      "fs": "latest",
+      "child_process": "latest"
     }
   }
   
