@@ -1,0 +1,1 @@
+// Testes unitários para validação de captura de dados

@@ -1,0 +1,16 @@
+{
+    "name": "cardano-api-auditor",
+    "version": "1.0.0",
+    "description": "Sistema de auditoria de API usando Cardano Blockchain",
+    "main": "index.js",
+    "scripts": {
+      "fetch-data": "node scripts/fetchData.js",
+      "submit-tx": "bash blockchain/buildTransaction.sh"
+    },
+    "dependencies": {
+      "axios": "^0.21.1",
+      "crypto": "latest",
+      "fs": "latest"
+    }
+  }
+  
